@@ -1,0 +1,9 @@
+<div class="modal">
+  <div class="content">
+    <form {{action 'create' on='submit'}}>
+      {{yield}}
+      <button class="button" type="submit" {{action 'create'}}>Create</button>
+    </form>
+  </div>
+  <div class="overlay" {{action 'closeModal'}}></div>
+</div>

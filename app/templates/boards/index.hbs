@@ -1,0 +1,11 @@
+<h5>Boards</h5>
+
+<div class="content-panel">
+  {{#each board in model}}
+    {{render 'board-tile' board}}
+  {{/each}}
+
+  <div class="board-tile new-board" {{action 'newBoard'}}>
+    <p>New Board</p>
+  </div>
+</div>

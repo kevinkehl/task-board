@@ -1,0 +1,7 @@
+<p class="white">{{model.name}}</p>
+
+{{#each task in model.tasks}}
+  {{render 'task' task}}
+{{/each}}
+
+<p {{action 'addTask'}} class="new-task">Create a new task</p>

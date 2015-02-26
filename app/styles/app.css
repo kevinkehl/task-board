@@ -1,0 +1,55 @@
+@import './normalize.css';
+@import './skeleton.css';
+@import './board-tile.css';
+@import './list.css';
+@import './modal.css';
+@import './tasks.css';
+
+html {
+  background-color: #ececec;
+}
+
+input,
+form,
+h4,
+p {
+  margin: 0px!important;
+}
+
+div.navbar {
+  background-color: #1D9BB2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+
+div.main {
+  padding: 10px;
+}
+
+a.button,
+button.button {
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+div.content-panel {
+  display: flex;
+}
+
+div.content-panel div {
+  margin: 5px;
+}
+
+div.list {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.white {
+  color: white;
+}

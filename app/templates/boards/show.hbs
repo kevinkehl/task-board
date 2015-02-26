@@ -1,0 +1,11 @@
+<h5>{{model.name}}</h5>
+
+<div class="content-panel">
+  {{#each list in model.lists}}
+    {{render 'list' list}}
+  {{/each}}
+
+  <div class="list new-list" {{action 'newList' model}}>
+    <p>New List</p>
+  </div>
+</div>

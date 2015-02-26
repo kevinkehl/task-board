@@ -1,0 +1,20 @@
+div.board-tile {
+  height: 50px;
+  width: 200px;
+  background-color: #008391;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+div.board-tile a {
+  color: white;
+}
+
+div.board-tile.new-board {
+  background-color: #004250;
+}
+
+div.board-tile.new-board:hover {
+  background-color: #00a782;
+}
